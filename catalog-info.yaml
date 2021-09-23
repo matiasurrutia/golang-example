@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: golang-example
+  description: asdasd
+  annotations: 
+    github.com/project-slug: matiasurrutia/golang-example
+    backstage.io/source-ref: "https://github.com/matiasurrutia/golang-example"
+    backstage.io/techdocs-ref: url:https://github.com/matiasurrutia/golang-example
+    backstage.io/github-actions-id: https://github.com/matiasurrutia/golang-example
+spec:
+  type: service
+  lifecycle: experimental
+  owner: matiasurrutia
